@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+   
+   
+   .nav {
+    padding: 20px 0;
+    background-color: #375a7f;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.nav img.logo {
+    height: 100px;
+    padding-left: 50px;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    background-color: #496891;
+    border-radius: 5px;
+}
+    .home1{
+        height: 550px;
+        font-size: 28px;
+        
+    }
+    .home1 h1{
+        margin-left: 125px;
+        margin-top: 50px;
+    }
+    h1{
+        font-family: "Anek Devanagari";
+        font-size: 66px;
+        font-style: bold;
+        margin: 0px;
+        display: block;
+        
+    }
+    .content .p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        font-size: 40px;
+       
+        
+        }
+    .home-img{
+        width: 500px;
+        display: inline;
+        float: right;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    /*.home2{
+        background-color: cadetblue;
+    }*/
+    .home2 > h1{
+        text-align: center;
+        padding: 100px;
+        margin: 0px;
+    }
+
+    .info-box{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+    }
+    
+    .info-item{
+        flex: 1;                
+        margin: 10px;           
+        padding: 20px; 
+        height: 600px;         
+        background-color: #375a7f;
+        border-radius: 10px;    
+        
+    }
+        .img1 {
+        height: 250px;
+        padding-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .inner-text {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .inner-text > p{
+        color: whitesmoke;
+        font-size: 27px;
+    }
+    .bottom-container{
+        background-color: #9BA4B5;
+        padding: 50px 0 20px 0;
+        text-align: center;
+    }
+    a{
+        font-family: 'Montserrat', sans-serif;
+        color:  #C0DEFF;
+        margin: 10px 20px;
+        text-decoration: none;
+    }
+    
+
+    /*the below is for trainings*/
+    .train-img{
+        height: 300px;
+        float: right;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .train-content{
+        margin: 100px;
+    }
+    .sub{
+        margin-top: 50px;
+        height: 400px;
+    }
+
+    /*the below is for trainings*/
+
+    .message{
+        margin: 100px;
+        text-align: center;
+    }
+    .pep-img{
+        height: 400px;
+        width: 400px;
+        margin-right: 50px;
+        border-radius: 50%;
+        float: left;
+    }
+    .people{
+        text-align: center;
+        margin-top: 150px;
+        margin: 300px;
+    }
+    .people p{
+        padding-top: 180px;
+    }
