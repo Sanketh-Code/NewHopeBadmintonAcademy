@@ -22,8 +22,10 @@ body {
     padding: 0;
 }
 .nav img.logo {
-    height: 100px;
-    padding-left: 50px;
+    height: 150px;
+    margin-left:  50px; 
+    margin-top: 30px;
+    border-radius: 75px;
 }
 
 .nav-bar li {
