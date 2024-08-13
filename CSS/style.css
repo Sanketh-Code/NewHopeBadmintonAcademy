@@ -191,3 +191,31 @@ body {
     .img-line >a{
         margin: 0px;
     }
+
+/*This is for Tournament*/
+
+    .Tournament-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    .tournament{
+        flex: 1;                
+        margin: 10px;           
+        padding: 20px; 
+        height: 600px;         
+        background-color: #375a7f;
+        border-radius: 10px; 
+    }
+
+    .tour-img{
+        height: 250px;
+        margin: 40px;
+        float: left;
+        
+    }
