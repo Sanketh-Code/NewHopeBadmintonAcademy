@@ -85,19 +85,28 @@ body {
 
     .info-box{
         display: flex;
-        justify-content: space-between;
-        padding: 20px;
+        justify-content: space-around;
 
+    }
+    .info-box > *a{
+        margin: 0px;
     }
     
     .info-item{
         flex: 1;                
-        margin: 10px;           
+        margin: 0px;           
         padding: 20px; 
         height: 600px;         
         background-color: #375a7f;
         border-radius: 10px;    
         
+    }
+    .info-item:hover{
+        background-color: #9BA4B5;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.03);
+
     }
         .img1 {
         height: 250px;
@@ -156,14 +165,13 @@ body {
     }
     .people{
         text-align: center;
-        margin-top: 150px;
         margin: 300px;
     }
     .people p{
         padding-top: 180px;
     }
 
-/*The below is for Gallery*/
+    /*The below is for Gallery*/
 
     .img-container{
         height: 100%;
@@ -192,7 +200,7 @@ body {
         margin: 0px;
     }
 
-/*This is for Tournament*/
+    /*This is for Tournament*/
 
     .Tournament-container{
         display: flex;
@@ -219,3 +227,4 @@ body {
         float: left;
         
     }
+    
