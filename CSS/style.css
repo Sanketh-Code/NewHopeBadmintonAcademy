@@ -162,3 +162,32 @@ body {
     .people p{
         padding-top: 180px;
     }
+
+/*The below is for Gallery*/
+
+    .img-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+       align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   .img-container > h1{
+        margin: 50px;
+   }
+    .img-line{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .img-row{
+        height: 200px;
+        width: 200px;
+        
+    }
+    .img-line >a{
+        margin: 0px;
+    }
