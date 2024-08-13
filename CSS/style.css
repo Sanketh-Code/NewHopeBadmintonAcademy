@@ -180,6 +180,7 @@ body {
        align-content: center;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 150px;
     }
    .img-container > h1{
         margin: 50px;
