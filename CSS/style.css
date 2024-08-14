@@ -106,7 +106,8 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;              
-        margin: 0px;                    
+        margin: 0px;  
+        height: 600px;                  
         background-color: #375a7f;
         border-radius: 10px;    
         
@@ -123,8 +124,8 @@ body {
         padding-top: 50px;
     }
     .inner-text {
-        margin-left: 150px;
-        margin-right: 150px;
+        text-align: center  ;
+        margin-top: 50px;
     }
     .inner-text > p{
         color: whitesmoke;
@@ -159,6 +160,9 @@ body {
     .sub{
         margin-top: 50px;
         height: 400px;
+    }
+    .sub-header{
+        margin: 0px ;
     }
 
     /*the below is for trainings*/
