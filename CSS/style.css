@@ -8,7 +8,6 @@ body {
    
    
    .nav {
-    padding: 20px 0;
     background-color: #375a7f;
     box-shadow: 0 4px 2px -2px gray;
 }
@@ -47,11 +46,11 @@ body {
     .home1{
         height: 550px;
         font-size: 28px;
+        overflow:scroll;
         
     }
     .home1 h1{
-        margin-left: 125px;
-        margin-top: 50px;
+        text-align: center;
     }
     h1{
         font-family: "Anek Devanagari";
@@ -83,20 +82,22 @@ body {
     .home2{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        align-items: center;
         width: 100%;
+        padding: 50px 20px;
     }
     .home2 > h1{
         text-align: center;
-        padding: 100px;
-        margin: 0px;
-        justify-self: center;
+        padding-bottom: 20px;
         
     }
 
-    .info-box{
+
+
+    .home2{
         display: flex;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-evenly;
         }
     .info-box > *a{
         margin: 0px;
@@ -109,7 +110,7 @@ body {
         margin: 0px;  
         height: 600px;                  
         background-color: #375a7f;
-        border-radius: 10px;    
+        border-radius: 20px;    
         
     }
     .info-item:hover{
